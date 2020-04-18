@@ -21,7 +21,7 @@
 
   - Filtrando e selecionando sua base de dados.
 
-### 4 - [📊 Visualização de Dados](4-visualizacao-de-dadosipynb)
+### 4 - [📊 Visualização de Dados](4-visualizacao-de-dados.ipynb)
 
   - Construindo gráficos com [ggplot2](https://ggplot2.tidyverse.org/).
     - Univariados e Multivariados.
