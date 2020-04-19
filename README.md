@@ -4,7 +4,7 @@
 
 ## **Material**
 
-### 0 - [🔽 Instalação](0-instalacao.md)
+### 0 - [🔽 Instalação](0-instalacao-jupyter-notebook-r.md)
 
   - Instalando R e seus ambientes.
 
