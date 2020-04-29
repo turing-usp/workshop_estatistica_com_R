@@ -6,11 +6,11 @@
 
 ### - [👩‍🎓 Notebook do Participante](fifa-participante.ipynb)
 
-### - [👩‍🏫 Notebook Gabarito](fifa-gabarito.ipynb)
+### - [👩‍🏫 Notebook Gabarito (em breve)]()
 
 ## **Material de Estudos**
 
-### 0 - [🔽 Instalação](Material%20de%20Estudo/0-instalacao-jupyter-notebook-r.md)
+### 0 - [🔽 Instalação](instalacao-jupyter-notebook-r.md)
 
   - Instalando R e seus ambientes.
 
