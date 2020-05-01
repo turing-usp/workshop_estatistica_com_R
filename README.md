@@ -6,7 +6,7 @@
 
 ### - [👩‍🎓 Notebook do Participante](fifa-participante.ipynb)
 
-### - [👩‍🏫 Notebook Gabarito (em breve)]()
+### - [👩‍🏫 Notebook Gabarito](fifa-gabarito.ipynb)
 
 ## **Material de Estudos**
 
