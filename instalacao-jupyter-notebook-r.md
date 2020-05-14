@@ -159,3 +159,26 @@ ativado o anaconda desde que abriu o terminal.
 ### B.5 - Crie um novo Notebook
 
 Da mesma forma que [no Windows](#a3-crie-um-novo-notebook)
+
+### B.6 - Dicas de instalação
+
+- A instalação do Anaconda pode vir configurada para ser sempre inicializada no ambiente base. Caso não deseje, você pode desabilitar isso com o comando:
+```bash
+conda config --set auto_activate_base False
+```
+- Para aqueles que também gostariam de um atalho do Anaconda Navigator no desktop, crie um arquivo chamado `anaconda-navigator.desktop` em seu editor de texto de preferência com o seguinte conteúdo, trocando a palavra `user` pelo nome de seu usuário no Linux:
+```
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Anaconda Navigator
+GenericName=Anaconda GUI
+Comment=GUI to the conda package and environment manager
+Comment[pt_BR]=GUI para o gerenciador de pacotes e ambientes conda
+Exec=/home/user/anaconda3/bin/anaconda-navigator
+Categories=Development;Science;Building;IDE;ProjectManagement;PackageManager;ArtificialIntelligence;DataVisualization;
+Icon=/home/user/anaconda3/lib/python3.7/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png
+Terminal=false
+```
+e por fim mova o arquivo para a pasta `~/.local/share/applications/`
+O atalho funciona para qualquer interface gráfica compatível com [XDG](https://www.freedesktop.org/) e agradecemos o [Felipe](https://github.com/felipe-dachshund) pela sugestão :)
