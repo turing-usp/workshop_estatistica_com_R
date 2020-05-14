@@ -78,27 +78,43 @@ A instalação pode ser feita com os seguintes comandos:
 
 ```bash
 cd /tmp
-curl -O https://repo.anaconda.com/archive/Anaconda3-2020.02-Windows-x86_64.exe
-bash Anaconda3-2020.02-Windows-x86_64.exe
+curl -O https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+bash Anaconda3-2020.02-Linux-x86_64.sh
 ```
 
 Esse último comando vai abrir o instalador do Anaconda:
 
-1. segure <kbd>enter</kbd> até passar por todos os termos e condições;
+1. tecle <kbd>enter</kbd> até passar por todos os termos e condições;
 
 2. digite `"yes"` para aceitar os termos e condições;
 
-3. digite enter para aceitar a localização de instalação padrão;
+3. tecle <kbd>enter</kbd> para aceitar a localização de instalação padrão;
 
 4. espere a instalação terminar;
 
-5. digite `"yes"` para configurar o anaconda no seu sistema.
+5. para a última pergunta, digite `"yes"` para fazer com que o Anaconda seja executado quando você digitar `"python"` no terminal.
+
+6. Por fim, execute o comando abaixo para não precisar fechar e abrir o terminal para finalizar a instalação:
 
    ```bash
    source ~/.bashrc
    ```
+   
+Para testar a instalação, execute o Python e verifique se a saída é similar:
+```
+$ python
 
-Em seguida, feche e abra o seu terminal para completar a instalação do anaconda.
+Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 18:21:58)
+[GCC 7.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+Se constar a versão 3.6 do Python pela Anaconda, deu tudo certo e você pode sair do Python com:
+```
+>>> exit()
+```
+
 
 #### B.2.2 - Crie e ative um novo ambiente do anaconda
 
